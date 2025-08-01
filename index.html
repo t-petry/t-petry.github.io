@@ -1,14 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todd Petry</title>
-</head>
-<body>
-    <h1>Todd Petry</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quaerat iste, pariatur quam doloribus aliquid sint cum eveniet sed placeat! Consequatur maxime, repellat molestiae asperiores neque officia nisi quos autem.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi a minus vitae culpa repellat impedit id voluptas blanditiis quod cum nihil quibusdam repellendus tempore ab quia assumenda laudantium, dolore vero.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis vel ipsa quos, sequi reiciendis voluptas expedita, maiores, recusandae omnis optio incidunt quidem ducimus. Dignissimos eum accusamus, quam hic nemo minima!</p>
-    <p>Test</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">John Doe</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
 </html>
