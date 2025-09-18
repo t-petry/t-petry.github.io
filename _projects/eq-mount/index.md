@@ -8,5 +8,10 @@ skills:
   - KiCad
   - 3D Printing
   - Machining
-main-image: /mount.png
+main-image: /mount_extended.png
 ---
+
+## PCB
+
+{% include image-gallery.html images="pcb_top.png" height="400" %}
+{% include image-gallery.html images="pcb_bottom.png" height="400" %}
