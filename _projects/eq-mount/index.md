@@ -13,5 +13,4 @@ main-image: /mount_extended.jpg
 
 ## PCB
 
-{% include image-gallery.html images="pcb_top.png" height="300" %}
-{% include image-gallery.html images="pcb_bottom.png" height="300" %}
+{% include image-gallery.html images="pcb_top.png, pcb_bottom.png" height="350" %}
