@@ -950,3 +950,23 @@ footer p {
 .spacer {
   height: 1rem; /* adjust for desired break size */
 }
+
+.image-text-section {
+  display: flex;
+  flex-direction: row; /* Positions the image on the right */
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.text-block {
+  max-width: 50%;
+  padding: 20px;
+}
+
+.right-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
