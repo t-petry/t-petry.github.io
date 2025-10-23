@@ -947,3 +947,6 @@ footer p {
       
 }
 
+.spacer {
+  height: 1rem; /* adjust for desired break size */
+}
